@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: tahoma, Trebuchet MS;
+}
+
+header{
+    background-color: #490A03;
+    padding-top: 50px;   
+}
+    
+/*positioning image in full screen width*/
+.full-screen-width{
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    width: 100vw;
+}
+
+header h1{
+    color: #EEE3C2;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cormorant Garamond', serif; 
+    font-size: 50pt;
+    font-weight: 100;
+    margin: 0;
+}
+
+main{
+    max-width: 800px;
+    background-color: #EEE3C2;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+
+}
+
+
+h3{
+    color:#490A03;
+    font-family:'Cormorant Garamond', serif;
+    font-size: 20pt;
+}
